@@ -76,7 +76,7 @@ function checkAnswer(data) {
         promptUser();
     }
 
-    
+
 }
 
 
@@ -98,7 +98,7 @@ function rightGuess() {
             if (answer.confirm === true) {
                 startGame();
             } else {
-                console.log("Have a juicy day and come back soon!")
+                console.log("\nHave a juicy day and come back soon!\n")
             }
         })
     } else {
