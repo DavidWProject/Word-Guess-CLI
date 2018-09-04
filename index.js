@@ -31,7 +31,7 @@ function promptUser() {
         inquirer.prompt([{
             type: "input",
             name: "letter",
-            message: "\nPick a letter and press enter. ".cyan
+            message: "\nPick a letter and press enter. "
         }]).then(function (data) {
             checkAnswer(data);
         });
